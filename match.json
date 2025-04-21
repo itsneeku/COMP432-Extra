@@ -1,0 +1,609 @@
+{
+  "turns": [
+    {
+      "possibleActions": [
+        {
+          "canPlay": true,
+          "attachEnergyFromZone": {
+            "candidates": [
+              {
+                "value": 7
+              },
+              {
+                "value": 10
+              },
+              {
+                "value": 12
+              }
+            ]
+          }
+        },
+        {
+          "canPlay": true,
+          "determineAttack": {
+            "cardId": {
+              "value": 1004
+            },
+            "candidates": [
+              {
+                "attackId": {
+                  "value": "PK_005370_ATK_01"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "canPlay": true,
+          "determineTurnEnd": {}
+        },
+        {
+          "canPlay": true,
+          "playPokemon": {
+            "candidates": [
+              {
+                "value": 1002
+              },
+              {
+                "value": 1003
+              },
+              {
+                "value": 1009
+              },
+              {
+                "value": 1001
+              },
+              {
+                "value": 1005
+              }
+            ],
+            "playableBenchPositions": [
+              0
+            ]
+          }
+        },
+        {
+          "canPlay": true,
+          "playTrainer": {
+            "validationResults": [
+              {
+                "cardId": {
+                  "value": 1015
+                },
+                "canPlay": true
+              }
+            ]
+          }
+        },
+        {
+          "canPlay": true,
+          "retreat": {
+            "candidates": [
+              {
+                "value": 10
+              },
+              {
+                "value": 12
+              }
+            ],
+            "requiredEnergies": {
+              "pairs": [
+                {
+                  "type": "ENERGY_TYPE_COLORLESS",
+                  "value": 1
+                }
+              ]
+            },
+            "retreaterAttachedEnergies": {
+              "pairs": [
+                {
+                  "type": "ENERGY_TYPE_WATER",
+                  "value": 2
+                }
+              ]
+            },
+            "retreaterUsableEnergies": {
+              "pairs": [
+                {
+                  "type": "ENERGY_TYPE_WATER",
+                  "value": 2
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "game": {
+    "origin": {
+      "match": {
+        "player1": {
+          "battlePlayerId": {
+            "value": 1
+          },
+          "deck": {
+            "cards": [
+              {
+                "id": {
+                  "value": 1000
+                },
+                "masterCardId": {
+                  "value": "PK_10_005330_00"
+                },
+                "viewInfo": {
+                  "cardSkinId": {}
+                }
+              },
+              {
+                "id": {
+                  "value": 1001
+                },
+                "masterCardId": {
+                  "value": "PK_10_005330_00"
+                },
+                "viewInfo": {
+                  "cardSkinId": {}
+                }
+              },
+              {
+                "id": {
+                  "value": 1002
+                },
+                "masterCardId": {
+                  "value": "PK_10_005350_00"
+                },
+                "viewInfo": {
+                  "cardSkinId": {}
+                }
+              },
+              {
+                "id": {
+                  "value": 1003
+                },
+                "masterCardId": {
+                  "value": "PK_10_005350_00"
+                },
+                "viewInfo": {
+                  "cardSkinId": {}
+                }
+              },
+              {
+                "id": {
+                  "value": 1004
+                },
+                "masterCardId": {
+                  "value": "PK_10_005370_00"
+                },
+                "viewInfo": {
+                  "cardSkinId": {}
+                }
+              },
+              {
+                "id": {
+                  "value": 1005
+                },
+                "masterCardId": {
+                  "value": "PK_10_005370_00"
+                },
+                "viewInfo": {
+                  "cardSkinId": {}
+                }
+              },
+              {
+                "id": {
+                  "value": 1006
+                },
+                "masterCardId": {
+                  "value": "PK_10_005340_00"
+                },
+                "viewInfo": {
+                  "cardSkinId": {}
+                }
+              },
+              {
+                "id": {
+                  "value": 1007
+                },
+                "masterCardId": {
+                  "value": "PK_10_005360_00"
+                },
+                "viewInfo": {
+                  "cardSkinId": {}
+                }
+              },
+              {
+                "id": {
+                  "value": 1008
+                },
+                "masterCardId": {
+                  "value": "PK_10_005400_00"
+                },
+                "viewInfo": {
+                  "cardSkinId": {}
+                }
+              },
+              {
+                "id": {
+                  "value": 1009
+                },
+                "masterCardId": {
+                  "value": "PK_10_005390_00"
+                },
+                "viewInfo": {
+                  "cardSkinId": {}
+                }
+              },
+              {
+                "id": {
+                  "value": 1010
+                },
+                "masterCardId": {
+                  "value": "PK_10_005380_00"
+                },
+                "viewInfo": {
+                  "cardSkinId": {}
+                }
+              },
+              {
+                "id": {
+                  "value": 1011
+                },
+                "masterCardId": {
+                  "value": "PK_10_005730_00"
+                },
+                "viewInfo": {
+                  "cardSkinId": {}
+                }
+              },
+              {
+                "id": {
+                  "value": 1012
+                },
+                "masterCardId": {
+                  "value": "PK_10_005730_00"
+                },
+                "viewInfo": {
+                  "cardSkinId": {}
+                }
+              },
+              {
+                "id": {
+                  "value": 1013
+                },
+                "masterCardId": {
+                  "value": "PK_10_005740_00"
+                },
+                "viewInfo": {
+                  "cardSkinId": {}
+                }
+              },
+              {
+                "id": {
+                  "value": 1014
+                },
+                "masterCardId": {
+                  "value": "TR_90_000020_00"
+                },
+                "viewInfo": {
+                  "cardSkinId": {}
+                }
+              },
+              {
+                "id": {
+                  "value": 1015
+                },
+                "masterCardId": {
+                  "value": "TR_90_000030_00"
+                },
+                "viewInfo": {
+                  "cardSkinId": {}
+                }
+              },
+              {
+                "id": {
+                  "value": 1016
+                },
+                "masterCardId": {
+                  "value": "TR_90_000030_00"
+                },
+                "viewInfo": {
+                  "cardSkinId": {}
+                }
+              },
+              {
+                "id": {
+                  "value": 1017
+                },
+                "masterCardId": {
+                  "value": "TR_90_000040_00"
+                },
+                "viewInfo": {
+                  "cardSkinId": {}
+                }
+              },
+              {
+                "id": {
+                  "value": 1018
+                },
+                "masterCardId": {
+                  "value": "TR_90_000040_00"
+                },
+                "viewInfo": {
+                  "cardSkinId": {}
+                }
+              },
+              {
+                "id": {
+                  "value": 1019
+                },
+                "masterCardId": {
+                  "value": "TR_10_000420_00"
+                },
+                "viewInfo": {
+                  "cardSkinId": {}
+                }
+              }
+            ],
+            "energyTypes": [
+              "ENERGY_TYPE_WATER"
+            ],
+            "supply": {
+              "battleCoinId": "COIN_100160_MONSTERBALL"
+            }
+          },
+          "appPlayerId": "05809aa0-e7c7-4031-bfc5-17ef064c5bbb"
+        },
+        "player2": {
+          "battlePlayerId": {
+            "value": 2
+          },
+          "deck": {
+            "cards": [
+              {
+                "id": {
+                  "value": 2000
+                },
+                "masterCardId": {
+                  "value": "PK_10_001860_00"
+                },
+                "viewInfo": {
+                  "cardSkinId": {}
+                }
+              },
+              {
+                "id": {
+                  "value": 2001
+                },
+                "masterCardId": {
+                  "value": "TR_90_000030_00"
+                },
+                "viewInfo": {
+                  "cardSkinId": {}
+                }
+              },
+              {
+                "id": {
+                  "value": 2002
+                },
+                "masterCardId": {
+                  "value": "TR_90_000030_00"
+                },
+                "viewInfo": {
+                  "cardSkinId": {}
+                }
+              },
+              {
+                "id": {
+                  "value": 2003
+                },
+                "masterCardId": {
+                  "value": "PK_10_001990_00"
+                },
+                "viewInfo": {
+                  "cardSkinId": {}
+                }
+              },
+              {
+                "id": {
+                  "value": 2004
+                },
+                "masterCardId": {
+                  "value": "PK_10_001930_00"
+                },
+                "viewInfo": {
+                  "cardSkinId": {}
+                }
+              },
+              {
+                "id": {
+                  "value": 2005
+                },
+                "masterCardId": {
+                  "value": "PK_10_001930_00"
+                },
+                "viewInfo": {
+                  "cardSkinId": {}
+                }
+              },
+              {
+                "id": {
+                  "value": 2006
+                },
+                "masterCardId": {
+                  "value": "PK_10_001890_00"
+                },
+                "viewInfo": {
+                  "cardSkinId": {}
+                }
+              },
+              {
+                "id": {
+                  "value": 2007
+                },
+                "masterCardId": {
+                  "value": "PK_10_001890_00"
+                },
+                "viewInfo": {
+                  "cardSkinId": {}
+                }
+              },
+              {
+                "id": {
+                  "value": 2008
+                },
+                "masterCardId": {
+                  "value": "PK_10_001860_00"
+                },
+                "viewInfo": {
+                  "cardSkinId": {}
+                }
+              },
+              {
+                "id": {
+                  "value": 2009
+                },
+                "masterCardId": {
+                  "value": "PK_10_001910_00"
+                },
+                "viewInfo": {
+                  "cardSkinId": {}
+                }
+              },
+              {
+                "id": {
+                  "value": 2010
+                },
+                "masterCardId": {
+                  "value": "PK_10_000290_00"
+                },
+                "viewInfo": {
+                  "cardSkinId": {}
+                }
+              },
+              {
+                "id": {
+                  "value": 2011
+                },
+                "masterCardId": {
+                  "value": "PK_10_000020_00"
+                },
+                "viewInfo": {
+                  "cardSkinId": {
+                    "value": "KIRA_EFFECT_100030_PokeBall_NON"
+                  }
+                }
+              },
+              {
+                "id": {
+                  "value": 2012
+                },
+                "masterCardId": {
+                  "value": "PK_10_000140_00"
+                },
+                "viewInfo": {
+                  "cardSkinId": {}
+                }
+              },
+              {
+                "id": {
+                  "value": 2013
+                },
+                "masterCardId": {
+                  "value": "PK_10_000140_00"
+                },
+                "viewInfo": {
+                  "cardSkinId": {}
+                }
+              },
+              {
+                "id": {
+                  "value": 2014
+                },
+                "masterCardId": {
+                  "value": "PK_10_000210_00"
+                },
+                "viewInfo": {
+                  "cardSkinId": {}
+                }
+              },
+              {
+                "id": {
+                  "value": 2015
+                },
+                "masterCardId": {
+                  "value": "PK_10_000010_00"
+                },
+                "viewInfo": {
+                  "cardSkinId": {}
+                }
+              },
+              {
+                "id": {
+                  "value": 2016
+                },
+                "masterCardId": {
+                  "value": "PK_10_000210_00"
+                },
+                "viewInfo": {
+                  "cardSkinId": {}
+                }
+              },
+              {
+                "id": {
+                  "value": 2017
+                },
+                "masterCardId": {
+                  "value": "PK_10_000270_00"
+                },
+                "viewInfo": {
+                  "cardSkinId": {}
+                }
+              },
+              {
+                "id": {
+                  "value": 2018
+                },
+                "masterCardId": {
+                  "value": "PK_10_000270_00"
+                },
+                "viewInfo": {
+                  "cardSkinId": {}
+                }
+              },
+              {
+                "id": {
+                  "value": 2019
+                },
+                "masterCardId": {
+                  "value": "PK_10_000290_00"
+                },
+                "viewInfo": {
+                  "cardSkinId": {}
+                }
+              }
+            ],
+            "energyTypes": [
+              "ENERGY_TYPE_GRASS"
+            ],
+            "supply": {}
+          },
+          "appPlayerId": "2"
+        }
+      },
+      "regulation": {
+        "finalTurnNumber": 50,
+        "prize": {
+          "changeWinningPrize": true,
+          "winningPrize": {
+            "value": 3
+          }
+        },
+        "firstTurnPlayer": {}
+      },
+      "random": {
+        "seed": "7049671703458096814"
+      }
+    }
+  }
+}
